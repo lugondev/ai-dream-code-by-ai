@@ -1,0 +1,27 @@
+{
+	"name": "Lucky Numbers Dream Oracle",
+	"short_name": "Dream Oracle",
+	"description": "Transform your dreams into lucky lottery numbers with our mystical dream interpreter",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#1E40AF",
+	"theme_color": "#1E40AF",
+	"orientation": "portrait-primary",
+	"icons": [
+		{
+			"src": "/favicon.ico",
+			"type": "image/x-icon",
+			"sizes": "16x16 32x32"
+		},
+		{
+			"src": "/fortune-cookie.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/fortune-cookie.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	]
+}
