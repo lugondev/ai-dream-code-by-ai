@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mystical Dream Decoder 🔮
+
+A Next.js web application that interprets dreams and generates lucky numbers using AI. Share your dreams in English or Vietnamese and receive mystical interpretations along with lucky numbers between 00 and 99.
+
+## Features
+
+- 🌙 Dream interpretation using OpenAI's GPT models
+- 🔢 Lucky number generation based on dream content
+- 🌐 Bilingual support (English and Vietnamese)
+- 📱 Mobile-friendly responsive design
+- 💫 Beautiful gradient UI with Tailwind CSS
+- 📲 Easy sharing functionality
+
+## Tech Stack
+
+- Next.js 15.2
+- React 19
+- TypeScript
+- Tailwind CSS
+- OpenAI API
+- Turbopack (Dev mode)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js >= 20
+- pnpm
+- OpenAI API key
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/loto79-ai-funny.git
+cd loto79-ai-funny
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+pnpm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Create a `.env.local` file in the root directory and add your OpenAI API key:
+```
+OPENAI_API_KEY=your_api_key_here
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Start the development server:
+```bash
+pnpm dev
+```
 
-## Learn More
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Enter your dream in the text area using English or Vietnamese
+2. Click "Decode My Dream" to receive your interpretation
+3. Share or copy the results using the share button
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+Feel free to open issues and submit pull requests.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is private and not open for public use.
